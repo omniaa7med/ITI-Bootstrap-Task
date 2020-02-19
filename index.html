@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rancho&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e9c094e37f.js" crossorigin="anonymous"></script>
+    <title>Plants</title>
+</head>
+
+<body>
+    <main>
+
+        <!-- ----------------------------------------NAV-BAR------------------------------------------------- -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light bg-white container-fluid" id="navbar">
+            <a class="navbar-brand logo d-md-block d-lg-none" href="#">PLANTS</a>
+            <button class="navbar-toggler btnnav" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="">MENU</span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="navbar-brand m-auto nav-logo" href="#">PLANTS</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">PAGES</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link language" href="#">Ar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- -----------------------------------------SLIDER------------------------------------------------- -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title">Name</h4>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                        </div>
+                        <div class="modal-body">
+                            Omnia Ahmed
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/imgs/1.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="font-weight-bold">Welcome To plants</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis intera augue mollis interdum.</p>
+                        <button type="button" class="btn btnmodel" data-toggle="modal" data-target="#myModal">
+                            Read More
+                        </button>
+                        <div class="move-down" id="move-down">
+                            <a class="text-white" href="#about"><i class="fas fa-angle-double-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/2.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="font-weight-bold">Welcome To plants</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis intera augue mollis interdum.</p>
+                        <button type="button" class="btn btnmodel" data-toggle="modal" data-target="#myModal">
+                            Read More
+                        </button>
+                        <div class="move-down" id="move-down">
+                            <a class="text-white" href="#about"><i class="fas fa-angle-double-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/3.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="font-weight-bold">Welcome To plants</h1>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis intera augue mollis interdum.</p>
+                        <button type="button" class="btn btnmodel" data-toggle="modal" data-target="#myModal">
+                            Read More
+                        </button>
+                        <div class="move-down" id="move-down">
+                            <a class="text-white" href="#about"><i class="fas fa-angle-double-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/imgs/4.jpg" class="d-block w-100 img-fluid" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="font-weight-bold">Welcome To plants</h1>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <button type="button" class="btn btnmodel" data-toggle="modal" data-target="#myModal">
+                            Read More
+                        </button>
+                        <div class="move-down" id="move-down">
+                            <a class="text-white" href="#about"><i class="fas fa-angle-double-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!-- --------------------------------------ABOUT US--------------------------------------------------- -->
+
+        <section class="abouts-section container m-auto" id="about">
+            <div class="row d-flex align-items-center no-gutters">
+                <div class="col-md-6 abouts-img">
+                    <figure class="m-auto">
+                        <img src="./assets/imgs/ab.jpg" class="w-100 img-fluid" alt="...">
+                    </figure>
+                    <figure class="m-auto">
+                        <img src="./assets/imgs/ab2.jpg" class="w-100 img-fluid" alt="...">
+                    </figure>
+                </div>
+                <div class="col-md-4">
+                    <article>
+                        <h5><small>About Us</small></h5>
+                        <h3 class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, doloribus, repellat laudantium,
+                            repudiandae porro ipsa quae a nobis nihil maxime harum sequi aspernatur deleniti molestiae
+                            expedita error at veniam provident.</p>
+                        <div class="media d-flex align-items-center mt-3">
+                            <img src="./assets/imgs/te1.jpg" class="mr-3 rounded-circle img-fluid" alt="...">
+                            <div class="media-body">
+                                <h6 class="mt-0 font-weight-bold">Media heading</h6>
+                                Cras sit amet nibh libero,
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------GATEGORY SECTION----------------------------------------------- -->
+
+        <section class="gategory-section container-fluid">
+            <div class=" row container m-auto no-gutters">
+                <div class="col-md-8 m-auto">
+                    <div class="row text-center text-white">
+                        <div class="col-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center m-auto">
+                                <i class="fas fa-leaf"></i></div>
+                            <h5 class="mt-3">GAREDEN CARE</h5>
+                            <p>Lorem ipsum dolor sit amet consecteturamet consecteturamet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center m-auto">
+                                <i class="fas fa-tree"></i></div>
+                            <h5 class="mt-3">GAREDEN CARE</h5>
+                            <p>Lorem ipsum dolor sit amet consecteturamet consecteturamet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="icon d-flex justify-content-center align-items-center m-auto">
+                                <i class="fab fa-pagelines"></i></div>
+                            <h5 class="mt-3">GAREDEN CARE</h5>
+                            <p>Lorem ipsum dolor sit amet consecteturamet consecteturamet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------BLOG SECTION---------------------------------------------- -->
+
+        <section class="blog-section container-fluid">
+            <div class="row container m-auto d-flex align-items-center">
+                <div class="col-md-6">
+                    <h3 class="text-center mb-4"><span class="font-weight-bold">Latest </span>Blog</h3>
+                    <article class="blog-section_boxcontent">
+                        <div class="blog-section_item">
+                            <div class="blog-item-title d-flex justify-content-between">
+                                <div class="circle"></div>
+                                <h6 class="font-weight-bold">Lorem ipsum dolor sit amet</h6>
+                                <h6><small>26 Jan,2020</small></h6>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate cum iste illum
+                                odit,
+                                voluptate
+                                magni culpa facere non, rem nesciunt, nulla quod ratione. Sapiente temporibus voluptates
+                                eius distinctio officiis?</p>
+                        </div>
+                        <div class="blog-section_item">
+                            <div class="blog-item-title d-flex justify-content-between">
+                                <div class="circle"></div>
+                                <h6 class="font-weight-bold">Lorem ipsum dolor sit amet</h6>
+                                <h6><small>26 Jan,2020</small></h6>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate cum iste illum
+                                odit,
+                                voluptate
+                                magni culpa facere non, rem nesciunt, nulla quod ratione. Sapiente temporibus voluptates
+                                eius distinctio officiis?</p>
+                        </div>
+                        <div class="blog-section_item">
+                            <div class="blog-item-title d-flex justify-content-between">
+                                <div class="circle"></div>
+                                <h6 class="font-weight-bold">Lorem ipsum dolor sit amet</h6>
+                                <h6><small>26 Jan,2020</small></h6>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo cupiditate cum iste illum
+                                odit,
+                                voluptate
+                                magni culpa facere non, rem nesciunt, nulla quod ratione. Sapiente temporibus voluptates
+                                eius distinctio officiis?</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4 p-0 blog-img">
+                    <img src="./assets/imgs/blog.jpg" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------------------WHY CHOOSE US----------------------------------------------------- -->
+
+        <section class="chooseus-section container">
+            <h3 class="text-center mb-4"><span class="font-weight-bold">Why </span>Choose Us</h3>
+            <div class="row container no-gutters">
+                <div class="col-md-8 m-auto">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="./assets/imgs/wh1.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p>Omnia Ahmed -- Alexandria</p>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in
+                                        to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="./assets/imgs/wh2.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p>Omnia Ahmed -- Alexandria</p>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in
+                                        to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="./assets/imgs/wh3.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p>Omnia Ahmed -- Alexandria</p>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in
+                                        to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------------------STATISTICS SECTION------------------------------------------------ -->
+
+        <section class="statistics-section container-fluid">
+            <div class="statistics-section__boxcontent container text-white text-center">
+                <h2 class="m-auto">We give you Care tips and Ideas on what style suits your garden</h2>
+                <div class="row container no-gutters">
+                    <div class="col-md-8 m-auto p-0">
+                        <div class="row mt-5 ">
+                            <div class="col-md-3 statistics-item r p-0">
+                                <span><i class="far fa-smile"></i></span>
+                                <div class="content text-left pl-2">
+                                    <h3>1280</h3>
+                                    <h6>Happy customers</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 statistics-item p-0">
+                                <span><i class="fas fa-shield-alt"></i></span>
+                                <div class="content text-left pl-2">
+                                    <h3>920</h3>
+                                    <h6>Awards win</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 statistics-item  p-0 ">
+                                <span><i class="fas fa-leaf"></i></span>
+                                <div class="content text-left pl-2">
+                                    <h3>1400</h3>
+                                    <h6>Products</h6>
+                                </div>
+                            </div>
+                            <div class="col-md-3 d-flex statistics-item  p-0 ">
+                                <span><i class="far fa-thumbs-up"></i></span>
+                                <div class="content text-left pl-2">
+                                    <h3>1080</h3>
+                                    <h6>Ratings</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------Gallery---------------------------------------------------------- -->
+        <section class="gallery-secction container text-center">
+            <h3 class=" mb-4"><span class="font-weight-bold">Our </span>Team</h3>
+            <div class="row container no-gutters d-flex justify-content-center">
+                <div class="col-md-8 m-auto">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <figure>
+                                <img src="./assets/imgs/t1.jpg" class="img-fluid" alt="...">
+                            </figure>
+                            <h4>Omnia Ahmed</h4>
+                            <div class="gallery-social d-flex justify-content-center text-white mt-2 mb-2">
+                                <div class="social"><i class="fab fa-facebook-f"></i></div>
+                                <div class="social"><i class="fab fa-twitter"></i></div>
+                                <div class="social"><i class="fab fa-google-plus-g"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <figure>
+                                <img src="./assets/imgs/t2.jpg" class="img-fluid" alt="...">
+                            </figure>
+                            <h4>Omnia Ahmed</h4>
+                            <div class="gallery-social d-flex justify-content-center text-white mt-2 mb-2">
+                                <div class="social"><i class="fab fa-facebook-f"></i></div>
+                                <div class="social"><i class="fab fa-twitter"></i></div>
+                                <div class="social"><i class="fab fa-google-plus-g"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <figure>
+                                <img src="./assets/imgs/t3.jpg" class="img-fluid" alt="...">
+                            </figure>
+                            <h4>Omnia Ahmed</h4>
+                            <div class="gallery-social d-flex justify-content-center text-white mt-2 mb-2">
+                                <div class="social"><i class="fab fa-facebook-f"></i></div>
+                                <div class="social"><i class="fab fa-twitter"></i></div>
+                                <div class="social"><i class="fab fa-google-plus-g"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <figure>
+                                <img src="./assets/imgs/t4.jpg" class="img-fluid" alt="...">
+                            </figure>
+                            <h4>Omnia Ahmed</h4>
+                            <div class="gallery-social d-flex justify-content-center text-white mt-2 mb-2">
+                                <div class="social"><i class="fab fa-facebook-f"></i></div>
+                                <div class="social"><i class="fab fa-twitter"></i></div>
+                                <div class="social"><i class="fab fa-google-plus-g"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------BlockQuote Section---------------------------------------- -->
+
+        <section class="blockquote-section container-fluid">
+            <div class="row container no-gutters">
+                <div class="col-md-8 m-auto">
+                    <blockquote class="row container">
+                        <div class="col-md-6 ">
+                            <h6 class="mb-2"><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur
+                                adipiscingelit.Integer posuere erat ateger posuere erat ateger posuere erat a
+                                anteconsect
+                                etur adipiscing elit.</h6>
+                            <h5>Omnia Ahmed</h5>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- -----------------------------------------ourplants section--------------------------------------- -->
+
+        <section class="ourplants-section container">
+            <h3 class="text-center mb-4"><span class="font-weight-bold">Our </span>Plants</h3>
+            <div class="row container no-gutters">
+                <div class="col-md-8 m-auto">
+                    <div class="row row-cols-1 row-cols-md-4 text-center">
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g1.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g2.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g3.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g4.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g5.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g6.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g7.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                        <div class="col mb-3">
+                            <figure>
+                                <img src="./assets/imgs/g8.jpg" class="img-fluid" alt="...">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ---------------------------------------Form secion----------------------------------------------- -->
+
+        <section class="form-section container-fluid text-white">
+            <h3 class="text-center mb-4"><span class="font-weight-bold">Contact </span>Us</h3>
+            <form class="container">
+                <fieldset>
+                    <legend class="text-center">Send Us A Note</legend>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleTextArea1">Your Message</label>
+                        <textarea type="text" class="form-control" id="exampleTextArea1" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </fieldset>
+            </form>
+            <section class="form-section-info container text-center mt-5">
+                <div class="row container no-gutters">
+                    <div class="col-md-8 m-auto">
+                        <div class="row bg-white p-3">
+                            <div class="col-md-4 d-flex align-items-center">
+                                <span><i class="fas fa-envelope mr-3"></i></span>
+                                <div class="item-info d-flex flex-wrap">
+                                    <a href="mailto:yourname@gmail.com">mail 1 @example.com</a>
+                                    <a href="mailto:yourname@gmail.com">mail 2 @example.com</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex align-items-center">
+                                <span><i class="fas fa-phone-alt mr-3"></i></span>
+                                <div class="item-info d-flex flex-wrap">
+                                    <a href="tel:0112345678">+1 011 234 5678</a>
+                                    <a href="tel:0112345678">+1 011 234 5678</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-flex align-items-center">
+                                <span><i class="fas fa-map mr-3"></i></span>
+                                <div class="item-info">
+                                    <a href="http://maps.google.com/maps?q=Alex+stanly">
+                                        Lorem ipsum dolor sit, amet consectetur,</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- --------------------------------------ourpartners------------------------------------------------- -->
+
+        <section class="ourpartners-section container text-center">
+            <h3 class="text-center mb-4"><span class="font-weight-bold">Our </span>Partners</h3>
+            <div class="row container no-gutters">
+                <div class="col-md-8 m-auto">
+                    <div class="row mt-5 d-flex justify-content-around mb-5">
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-angellist h1"></i></span>
+                        </div>
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-adobe h1"></i></span>
+                        </div>
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-airbnb h1"></i></span>
+                        </div>
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-android h1"></i></span>
+                        </div>
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-angellist h1"></i></span>
+                        </div>
+                        <div class="col-md-4 col-4 col-lg-2 ">
+                            <span class="partner-item"><i class="fab fa-airbnb h1"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ------------------------------------footer------------------------------------------------------- -->
+
+        <footer>
+            <section class="footer-section container text-center">
+                <h4>We Provide Best Service</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolorem iure deleniti
+                    Deserunt voluptates corporis tempora in reprehenderit</p>
+                <a class="footer-logo" href="#">PLANTS</a>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit</h6>
+                <div class="row container no-gutters">
+                    <div class="col-md-8 m-auto">
+                        <div class=" row footer-info">
+                            <div class="col-md-4 d-flex justify-content-center m-auto">
+                                <i class="fas fa-map-marker-alt mr-2"></i>
+                                <p> 345 Lorem ipsum </p>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center">
+                                <i class="fas fa-phone-alt mr-2"></i>
+                                <p>+1 112 345 678</p>
+                            </div>
+                            <div class="col-md-4 d-flex justify-content-center">
+                                <i class="fas fa-envelope mr-2"></i>
+                                <p>mail1@example.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-social d-flex justify-content-center text-white mt-2 mb-2 ">
+                    <div class="mr-2"><i class="fab fa-facebook-f"></i></div>
+                    <div class="mr-2"><i class="fab fa-twitter"></i></div>
+                    <div class="mr-2"><i class="fas fa-rss"></i></div>
+                    <div class="mr-2"><i class="fab fa-vk"></i></div>
+                </div>
+                <p class="mt-3"><i class="fa fa-copyright"></i> 2020 plants All right Reversed | Design By
+                    <span>Omnia</span> </p>
+                <div class="move-top" id="move-top">
+                    <a href="#navbar"><img src="./assets/imgs/move-top.png" class="img-fluid" alt="..."></a>
+                </div>
+            </section>
+        </footer>
+
+    </main>
+
+    <!-- ------------------------------------------END Main--------------------------------------------------- -->
+    <script src="./assets/js/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+
+</html>

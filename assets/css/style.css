@@ -1,0 +1,422 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    font-size: .9rem;
+    opacity: .5;
+}
+
+.gategory-section,
+.abouts-section,
+.blog-section,.statistics-section,
+.chooseus-section,.gallery-secction,
+.blockquote-section,.ourplants-section,
+.form-section,.ourpartners-section,.footer-section{
+    padding: 5% 0;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------NAVBAR-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.navbar-light .navbar-brand.nav-logo{
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    color: #00bfa5;
+}
+.navbar-light .navbar-brand.logo{
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    color: #00bfa5;
+}
+
+.navbar-light .btnnav{
+    background-color: #ff6a3b;
+    color: #fff;
+    width: 80px;
+    height: 35px;
+    border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-nav li{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ff6a3b;
+}
+
+.navbar-light .navbar-nav .language{
+    background-color: #ff6a3b;
+    color: white;
+    border-radius: 20px;
+}
+.navbar-light .navbar-nav .nav-link.language:hover {
+    background-color:#ff6a3b;
+    color: white;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ff6a3b;
+}
+
+.move-down{
+    width: 30px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    margin-top: 10%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------SLIDER-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.carousel-caption{
+    top: 220px;
+}
+
+.btnmodel,.btnmodel:hover,.btnmodel:active{
+    background-color: #ff6a3b;
+    color: #fff;
+    border-color: #ff6a3b;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------ABOUT-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.abouts-section{
+    padding: 7% 0;
+}
+
+.abouts-section figure{
+    width: 45%;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 10px solid white;
+    transform: rotateZ(340deg);
+    z-index: 2;
+}
+
+.abouts-section figure:nth-child(2){
+    width: 45%;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 10px solid white;
+    transform: rotateZ(340deg);
+    top: 70%;
+    right: 30%;
+    position: absolute;
+}
+
+.abouts-section h5{
+    color: #ff6a3b;
+}
+
+.abouts-img{
+    margin-bottom: 7%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------GATEGORY-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.gategory-section{
+    background-color: #00bfa5;
+}
+
+.gategory-section .icon{
+    border: 2px solid white;
+    border-radius: 54px;
+    font-size: 1.5rem;
+    width: 60px;
+    height: 60px;
+}
+
+.icon i{
+    font-size: 1.5rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------BLOG-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.blog-img{
+    position: absolute;
+    right: 0;
+}
+
+.blog-img img{
+    border-radius: 10px;
+}
+
+.blog-section_boxcontent{
+    border-left: 1px solid lightgray;
+    padding: 0 20px;
+}
+
+.blog-section .circle{
+    background-color: #ff5722;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    position: absolute;
+    left: 8px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------STATISTICS-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.statistics-section{
+    background-image: url('../imgs/4.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.statistics-section h2{
+    width: 50%;
+}
+
+.statistics-section span{
+    background-color: #00bfa5;
+    width: 25%;
+    font-size: 1.5rem;
+    border-radius: 6px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics-item {
+    display: flex;
+    justify-content: center;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------GALLERY-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.gallery-social div {
+    width: 25px;
+    height: 25px;
+}
+
+.gallery-social .social:hover{
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    transform: rotateY(360deg);
+}
+
+.gallery-social i{
+    font-size: .7rem;
+}
+
+
+.gallery-social div:nth-child(1){
+    background-color: #3b5998;
+    margin-right:5px ;
+}
+
+.gallery-social div:nth-child(2){
+    background-color: #1ea1f2;
+    margin-right:5px ;
+}
+
+.gallery-social div:nth-child(3){
+    background-color: #f44336;
+    margin-right:5px ;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------BLOCKQUOTe-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.blockquote-section{
+    background-image: url('../imgs/bg1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 7% 0;
+}
+
+.blockquote-section p{
+    font-size: 1rem;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------OURPLANTS-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.ourplants-section img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform .5s;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------FORM-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+.form-section{
+    background-image: url('../imgs/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.form-section form{
+    margin: auto;
+    width: 40%;
+}
+
+fieldset{
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+legend{
+    width: 50%;
+}
+
+.form-section-info a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-section-info i{
+    color: #ff6a3b;
+    font-size: x-large;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------OURPARTNERS-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.partner-item{
+    opacity: .3;
+}
+
+.ourpartners-section i{
+    font-size: 5rem;
+}
+
+.partner-item:hover{
+    opacity: 1;
+    color: #ff6a3b;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------FOOTER-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+footer{
+    background-image: url('../imgs/footer.jpg');
+    background-position: bottom;
+    background-size: cover;
+}
+
+.footer-section{
+    width: 50%;
+    margin: auto;
+}
+
+.footer-section p{
+    font-size: .8rem;
+    opacity: .7;
+}
+
+.footer-section .footer-social div{
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer-social i{
+    font-size: .7rem;
+}
+
+.footer-section .footer-social div:nth-child(1){
+    background-color: #3b5998;
+}
+
+.footer-social div:nth-child(2){
+    background-color:#1ea1f2;
+}
+
+.footer-social div:nth-child(3){
+    background-color:#f26623;
+}
+
+.footer-social div:nth-child(4){
+    background-color: #45668e;
+}
+
+.footer-logo{
+    font-family: 'Rancho', cursive;
+    font-size: 2rem;
+    color: #ff6a3b;
+    text-decoration: none;
+}
+
+.move-top {
+    bottom: 0px;
+    z-index: 100;
+    position: fixed;
+    right: 0;
+    margin: 20px;
+}
+
+footer span{
+    color: #ff6a3b;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>------------------MEDIAQUIERY-------------->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media screen and (max-width: 990px) {
+    .navbar-collapse .navbar-nav a.navbar-brand{
+        display: none;
+    }
+    .navbar-light .navbar-brand a.logo{
+        display: block;
+    }
+    .carousel-caption{
+        top: 0;
+    }
+    .carousel-caption h1{
+        font-size: 1.5rem;
+    }
+    .move-down{
+        margin-top: 2%;
+    }
+    .blog-img{
+        position: relative;
+        margin-top: 5px;
+    }
+    .abouts-img{
+        margin-top: 5%;
+    }
+    .abouts-section .col-md-4{
+        padding: 25% 6% 0;
+    }
+    .statistics-section .statistics-item  span{
+        width: 12%;
+        font-size: 1.5rem;
+        height: 68%;
+        }
+    .statistics-section h2{
+        width: 65%;
+    }
+    .statistics-section .statistics-item {
+        display: flex;
+        justify-content: normal; 
+    }
+    .form-section  form{
+        width: 80%;  
+    }
+    .gallery-secction .col-md-3{
+        margin-top: 15px;
+    }
+    footer{
+        background-size: auto;
+    }
+    .footer-section{
+        width: 100%;
+    }
+}
+
